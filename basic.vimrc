@@ -1,3 +1,6 @@
+set nosmartindent
+set noautoindent
+
 " Don't try to be vi compatible
 set nocompatible
 
@@ -68,8 +71,8 @@ nnoremap / /\v
 vnoremap / /\v
 set hlsearch
 set incsearch
-set ignorecase
-set smartcase
+"set ignorecase
+"set smartcase
 set showmatch
 map <leader><space> :let @/=''<cr> " clear search
 
